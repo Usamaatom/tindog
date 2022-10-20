@@ -1,0 +1,189 @@
+#title{
+
+  background-color: #E94560;
+  color: #fff;
+}
+
+body{
+  font-family: "Montserrat";
+}
+p{
+  color: #8f8f8f;
+}
+h2{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+h3{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* Navigation-bar */
+
+.navbar{
+  position: relative;
+  right: 10px;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-weight: 2.5rem;
+
+}
+
+.container-fluid{
+ padding: 3% 15%;
+
+}
+.apple-icon{
+  height: 25px;
+  width: 25px;
+  margin-bottom: 5px;
+}
+.playstore-icon{
+  height: 25px;
+  width: 25px;
+  margin-bottom: 5px;
+}
+
+.row{
+  padding-top: 2.5rem;
+
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+ /* Download-button */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+
+}
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  /* By giving position absolute,the parent become the column of picture and here you will see if we set position from top zero than our image from bottom goes over the column border in negative value. */
+  position: absolute;
+  left: 10%;
+}
+
+
+/* Features-Section */
+
+.features-icon{
+  font-family: "Montserrat";
+  color: #E94560;
+  padding: 5%;
+
+}
+.features-icon:hover {
+  color: #D61C4E;
+}
+
+#features{
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  /* here you donot need to use z-index as features-section comes after the section of image in html */
+  z-index: 1;
+}
+
+
+/* testimonials section */
+
+#testimonials{
+
+  text-align: center;
+  background-color: #E94560;
+  color: #fff;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.testimonials-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 5%;
+}
+#press{
+  background-color: #E94560;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 10px 20px 10px;
+
+}
+
+/* Pricing section */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.Pricing-column{
+  padding: 3% 2%;
+}
+
+/* cta-section */
+#cta{
+  background-color: #E94560;
+  text-align: center;
+  padding: 7% 15%;
+
+
+}
+#cta-h3{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  color: #fff;
+  line-height: 1.5;
+
+}
+.button-cta{
+  margin: 5% 2%;
+}
+
+/* footer-section */
+
+#footer{
+  background-color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+.footer-icon{
+  margin:  0 .5%;
+  color: black;
+}
+#copyright{
+  margin-top: 2%;
+}
+
+/* Media Query */
+@media (max-width: 1000px){
+
+.title-image{
+  position: static;
+  transform: rotate(0);
+}
+#title{
+  text-align: center;
+}
+
+}
